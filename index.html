@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<form>
+<fieldset>
+<legend>Анкета відвідувача</legend>
+<p><label for="name">Ім'я <em>*</em></label><input type="text" id="name" required /></p>
+<p><label for="tel">Телефон <em>*</em></label><input type="tel" id="tel" required /></p>
+<p><label for="email">E-mail <em>*</em></label><input type="email" id="email" autocomplete="off" required /></p>
+<p><label for="date">Дата відвідування </label><input type="date" id="date" p="" /></p>
+</fieldset>
+<fieldset>
+<legend>Персональна інформація</legend>
+<p><label for="age">Вік</label><input type="number" min="1" max="100" step="1" /></p>
+<p>Улюблена страва закладу<select>
+<option>Борщ</option>
+<option>Вареники</option>
+<option>Галушки</option>
+</select></p>
+<p>Яку страву Ви хотіли б скуштувати у нас?<textarea type="spellcheck"></textarea></p>
+</fieldset>
+<fieldset>
+<legend>Загальна оцінка нашого закладу</legend>
+<p>Яким чином Ви дізналися про нас?</p>
+<p><input type="radio" />Реклама у метро/соцмережах
+<p><input type="radio" />Заклад знаходиться поряд з роботою/домом
+<p><input type="radio" />За рекомендацією друзів
+<p><input type="radio" />Завдяки роботі промоутерів
+  <p>Чи задоволені Ви обслуговуванням?</p>
+  <p><input type="radio" />Так</p>
+  <p><input type="radio" />Ні</p>
+<p>Як би Ви хотіли покращити наш сервіс?<textarea type="spellcheck"></textarea></p>  
+</fieldset>
+<p><input type="submit" value="Отправить" /></p>
+</form>
